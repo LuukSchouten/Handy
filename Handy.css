@@ -1,0 +1,124 @@
+body{
+    font-family: 'Archivo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 1000px;
+    margin: auto;
+    margin-top: 1em;
+}
+
+#logo{
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.navbar{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 50px;
+    width: 950px;
+    background-color: #222931;
+}
+
+.navdivs{
+    height: 50px;
+    float: left;
+}
+
+.navitems{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.navdivs:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: #FEE918;
+    color: #1F292F;
+}
+
+.navdivs:hover .navitems{
+    transition: all 0.5s ease-in-out;
+    color: #1F292F;
+}
+
+.navdivs:hover .svg{
+    transition: all 0.5s ease-in-out;
+    filter: invert(0%);
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    margin-top: 17px;
+    background-color: #1F292F;
+}
+
+.overlinks{
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.overlinks:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: #FEE918;
+    color: #1F292F;
+}
+
+#geschiedenis{
+    padding: 18px 63px;
+}
+
+#deals{
+    padding: 18px 91px;
+}
+
+#diensten{
+    padding: 18px 80px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.svg{
+    filter: invert(100%);
+    width: 10px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.topimgdiv{
+    height: auto;
+    margin-top: 25px;
+}
+
+.topimgdiv img{
+    width: 100%;
+}
+
+.middlepics{
+    height: wrap;
+    text-align: center;
+}
+
+.middledivs{
+    display: inline-block;
+}
